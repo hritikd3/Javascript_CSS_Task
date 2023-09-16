@@ -1,6 +1,6 @@
 var rect= document.querySelector("#center")
 
-rect.addEventListener('mousemove', ()=>{
+rect.addEventListener('mousemove', (details)=>{
     // console.log("cursor is moving ")
 const rectLocation= rect.getBoundingClientRect();
 
