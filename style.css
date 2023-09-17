@@ -1,20 +1,16 @@
-:root{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
 
-}
-html,body{
-    height: 100%;
-    width: 100%;
-     
-}
-#center{
-    border: 2px solid black;
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   transform: translate(-50%,-50%);
-    width: 400px;
-    height: 200px;
+#center {
+  border:" 2px solid #9999" ;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(207, 207, 207); /* Default color */
+  transition: background-color 0.3s;
 }
